@@ -21,6 +21,8 @@
 		A219DF80192A545B009E7679 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A219DF62192A545B009E7679 /* UIKit.framework */; };
 		A219DF88192A545B009E7679 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A219DF86192A545B009E7679 /* InfoPlist.strings */; };
 		A219DF8A192A545B009E7679 /* BSTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A219DF89192A545B009E7679 /* BSTTests.m */; };
+		A219DF95192A546D009E7679 /* BinarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = A219DF94192A546D009E7679 /* BinarySearchTree.m */; };
+		A219DF98192A548C009E7679 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = A219DF97192A548C009E7679 /* Node.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		A219DF85192A545B009E7679 /* BSTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSTTests-Info.plist"; sourceTree = "<group>"; };
 		A219DF87192A545B009E7679 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A219DF89192A545B009E7679 /* BSTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSTTests.m; sourceTree = "<group>"; };
+		A219DF93192A546D009E7679 /* BinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearchTree.h; path = ../BinarySearchTree.h; sourceTree = "<group>"; };
+		A219DF94192A546D009E7679 /* BinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchTree.m; path = ../BinarySearchTree.m; sourceTree = "<group>"; };
+		A219DF96192A548C009E7679 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = ../Node.h; sourceTree = "<group>"; };
+		A219DF97192A548C009E7679 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Node.m; path = ../Node.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 			children = (
 				A219DF6D192A545B009E7679 /* AppDelegate.h */,
 				A219DF6E192A545B009E7679 /* AppDelegate.m */,
+				A219DF93192A546D009E7679 /* BinarySearchTree.h */,
+				A219DF94192A546D009E7679 /* BinarySearchTree.m */,
+				A219DF96192A548C009E7679 /* Node.h */,
+				A219DF97192A548C009E7679 /* Node.m */,
 				A219DF70192A545B009E7679 /* Main.storyboard */,
 				A219DF73192A545B009E7679 /* ViewController.h */,
 				A219DF74192A545B009E7679 /* ViewController.m */,
@@ -249,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A219DF98192A548C009E7679 /* Node.m in Sources */,
+				A219DF95192A546D009E7679 /* BinarySearchTree.m in Sources */,
 				A219DF75192A545B009E7679 /* ViewController.m in Sources */,
 				A219DF6F192A545B009E7679 /* AppDelegate.m in Sources */,
 				A219DF6B192A545B009E7679 /* main.m in Sources */,
